@@ -33,8 +33,8 @@ Sebelum menjalankan sistem, pastikan Anda memiliki:
 
 1. **Clone Repositori**
 ```bash
-git clone https://github.com/username/CBR_Penalaran_Komputer.git
-cd CBR_Penalaran_Komputer/CBR/notebooks
+git clone https://github.com/Veizer77/UASpenalaranKomputer.git
+cd Penalaran_Komputer/CBR/notebooks
 ````
 
 2. **(Opsional) Buat Virtual Environment**
@@ -141,7 +141,7 @@ jupyter notebook 05_evaluation.ipynb
 Jalankan notebook satu per satu dari Jupyter:
 
 ```bash
-cd CBR_Penalaran_Komputer/CBR/notebooks
+cd Penalaran_Komputer/CBR/notebooks
 jupyter notebook 01_case_base.ipynb
 ```
 
