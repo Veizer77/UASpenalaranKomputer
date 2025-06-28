@@ -72,7 +72,7 @@ CBR_Penalaran_Komputer/
 │   │   └── results/           # Hasil prediksi
 │   ├── logs/                  # File log proses
 │   ├── PDF/
-│   │   ├── Siber/             # PDF putusan perkara peretasan/malware
+│   │   ├── Peretasan/             # PDF putusan perkara peretasan/malware
 │   ├── notebooks/
 │   │   ├── 01_case_base.ipynb
 │   │   ├── 02_representation.ipynb
