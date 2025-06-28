@@ -1,0 +1,22 @@
+[
+  {
+    "query": "Legal dispute case 1",
+    "case_id": "CASE_1"
+  },
+  {
+    "query": "Legal dispute case 2",
+    "case_id": "CASE_2"
+  },
+  {
+    "query": "Legal dispute case 3",
+    "case_id": "CASE_3"
+  },
+  {
+    "query": "Legal dispute case 4",
+    "case_id": "CASE_4"
+  },
+  {
+    "query": "Legal dispute case 5",
+    "case_id": "CASE_5"
+  }
+]

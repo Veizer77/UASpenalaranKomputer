@@ -1,0 +1,68 @@
+query_id,predicted_solution,top_5_case_ids,metrics
+case_001,Permohonan Ditolak,"case_001, case_010, case_058, case_049, case_064","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_002,Permohonan Ditolak,"case_002, case_045, case_008, case_042, case_057","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_003,Permohonan Dikabulkan,"case_003, case_004, case_043, case_044, case_008","{'accuracy': 0.0, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0)}"
+case_004,Permohonan Dikabulkan,"case_004, case_003, case_043, case_044, case_008","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_005,Permohonan Dikabulkan,"case_005, case_058, case_067, case_060, case_046","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_006,Permohonan Ditolak,"case_006, case_004, case_003, case_013, case_042","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_007,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_008,Permohonan Ditolak,"case_008, case_045, case_064, case_010, case_058","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_009,Permohonan Ditolak,"case_009, case_012, case_060, case_039, case_048","{'accuracy': 0.0, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0)}"
+case_010,Permohonan Ditolak,"case_010, case_057, case_049, case_030, case_045","{'accuracy': 0.0, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0)}"
+case_011,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_012,Permohonan Ditolak,"case_012, case_064, case_058, case_060, case_052","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_013,Permohonan Dikabulkan,"case_013, case_008, case_059, case_043, case_044","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_014,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_015,Permohonan Dikabulkan,"case_015, case_017, case_035, case_010, case_034","{'accuracy': 0.0, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0)}"
+case_016,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_017,Permohonan Dikabulkan,"case_017, case_058, case_052, case_005, case_067","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_018,Permohonan Ditolak,"case_058, case_067, case_005, case_020, case_018","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_019,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_020,Permohonan Dikabulkan,"case_020, case_046, case_012, case_058, case_052","{'accuracy': 0.0, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0)}"
+case_021,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_022,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_023,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_024,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_025,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_026,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_027,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_028,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_029,Permohonan Ditolak,"case_029, case_059, case_045, case_010, case_008","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_030,Permohonan Ditolak,"case_030, case_064, case_012, case_010, case_045","{'accuracy': 0.0, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0)}"
+case_031,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_032,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_033,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_034,Permohonan Dikabulkan,"case_062, case_010, case_034, case_057, case_042","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_035,Permohonan Dikabulkan,"case_035, case_052, case_067, case_005, case_012","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_036,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_037,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_038,Permohonan Dikabulkan,"case_038, case_010, case_034, case_052, case_020","{'accuracy': 0.0, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0)}"
+case_039,Permohonan Ditolak,"case_039, case_038, case_058, case_054, case_020","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_040,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_041,Permohonan Dikabulkan,"case_041, case_042, case_058, case_044, case_043","{'accuracy': 0.0, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0)}"
+case_042,Permohonan Dikabulkan,"case_042, case_043, case_044, case_049, case_058","{'accuracy': 0.0, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0)}"
+case_043,Permohonan Ditolak,"case_042, case_043, case_044, case_018, case_049","{'accuracy': 0.0, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0)}"
+case_044,Permohonan Ditolak,"case_042, case_043, case_044, case_018, case_049","{'accuracy': 0.0, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0)}"
+case_045,Permohonan Dikabulkan,"case_045, case_058, case_010, case_008, case_030","{'accuracy': 0.0, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0)}"
+case_046,Permohonan Dikabulkan,"case_046, case_020, case_058, case_052, case_012","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_047,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_048,Permohonan Dikabulkan,"case_048, case_005, case_067, case_017, case_054","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_049,Permohonan Ditolak,"case_052, case_049, case_060, case_020, case_058","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_050,Permohonan Dikabulkan,"case_058, case_010, case_042, case_044, case_043","{'accuracy': 0.0, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0)}"
+case_051,Permohonan Dikabulkan,"case_051, case_017, case_048, case_052, case_005","{'accuracy': 0.0, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0)}"
+case_052,Permohonan Dikabulkan,"case_052, case_049, case_060, case_058, case_046","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_053,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_054,Permohonan Dikabulkan,"case_052, case_058, case_005, case_054, case_020","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_055,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_056,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_057,Permohonan Dikabulkan,"case_062, case_046, case_057, case_018, case_052","{'accuracy': 0.0, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0)}"
+case_058,Permohonan Ditolak,"case_058, case_005, case_067, case_020, case_012","{'accuracy': 0.0, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0)}"
+case_059,Permohonan Dikabulkan,"case_059, case_041, case_058, case_030, case_043","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_060,Permohonan Dikabulkan,"case_060, case_052, case_058, case_067, case_005","{'accuracy': 0.0, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0)}"
+case_061,Permohonan Dikabulkan,"case_061, case_058, case_067, case_054, case_005","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_062,Permohonan Dikabulkan,"case_058, case_057, case_062, case_052, case_046","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_063,Permohonan Dikabulkan,"case_063, case_051, case_048, case_005, case_067","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_064,Permohonan Ditolak,"case_030, case_064, case_058, case_060, case_012","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_065,Tidak ditemukan,"case_056, case_055, case_028, case_027, case_065",{}
+case_066,Permohonan Dikabulkan,"case_066, case_010, case_064, case_005, case_035","{'accuracy': 1.0, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'f1': np.float64(1.0)}"
+case_067,Permohonan Dikabulkan,"case_067, case_005, case_058, case_060, case_046","{'accuracy': 0.0, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0)}"

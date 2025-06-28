@@ -1,0 +1,25 @@
+2025-06-27 00:22:14,522 - INFO - Starting retrieval process at 2025-06-27 00:22:14
+2025-06-27 00:22:14,526 - INFO - Loaded 50 cases from d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\data\processed\cases.csv
+2025-06-27 00:22:14,533 - INFO - TF-IDF matrix shape: (50, 267)
+2025-06-27 00:22:14,536 - INFO - Loaded 5 evaluation queries from d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\data\eval\queries.json
+2025-06-27 00:22:14,592 - INFO - Training data shape: (100, 537)
+2025-06-27 00:22:14,594 - INFO - Class distribution: [50 50]
+2025-06-27 00:22:14,731 - INFO - Best Logistic Regression Parameters: {'C': 0.01}
+2025-06-27 00:22:14,732 - ERROR - Error training Logistic Regression: 'GridSearchCV' object has no attribute 'best_score'
+2025-06-27 00:22:14,797 - INFO - Query: Legal dispute case 1...
+2025-06-27 00:22:14,799 - INFO - Top 5 Results (ID, Score): [('CASE_1', np.float64(0.6076643290171767)), ('CASE_2', np.float64(0.5945989349663527)), ('CASE_3', np.float64(0.5945989349663527)), ('CASE_4', np.float64(0.5945989349663527)), ('CASE_5', np.float64(0.5945989349663527))]
+2025-06-27 00:22:14,799 - INFO - ✅ FOUND in Top-5: CASE_1
+2025-06-27 00:22:14,884 - INFO - Query: Legal dispute case 2...
+2025-06-27 00:22:14,886 - INFO - Top 5 Results (ID, Score): [('CASE_2', np.float64(0.6076643290171767)), ('CASE_1', np.float64(0.5945989349663527)), ('CASE_3', np.float64(0.5945989349663527)), ('CASE_4', np.float64(0.5945989349663527)), ('CASE_5', np.float64(0.5945989349663527))]
+2025-06-27 00:22:14,888 - INFO - ✅ FOUND in Top-5: CASE_2
+2025-06-27 00:22:14,965 - INFO - Query: Legal dispute case 3...
+2025-06-27 00:22:14,967 - INFO - Top 5 Results (ID, Score): [('CASE_3', np.float64(0.6076643290171767)), ('CASE_1', np.float64(0.5945989349663527)), ('CASE_2', np.float64(0.5945989349663527)), ('CASE_4', np.float64(0.5945989349663527)), ('CASE_5', np.float64(0.5945989349663527))]
+2025-06-27 00:22:14,968 - INFO - ✅ FOUND in Top-5: CASE_3
+2025-06-27 00:22:15,033 - INFO - Query: Legal dispute case 4...
+2025-06-27 00:22:15,034 - INFO - Top 5 Results (ID, Score): [('CASE_4', np.float64(0.6076643290171767)), ('CASE_1', np.float64(0.5945989349663527)), ('CASE_2', np.float64(0.5945989349663527)), ('CASE_3', np.float64(0.5945989349663527)), ('CASE_5', np.float64(0.5945989349663527))]
+2025-06-27 00:22:15,035 - INFO - ✅ FOUND in Top-5: CASE_4
+2025-06-27 00:22:15,096 - INFO - Query: Legal dispute case 5...
+2025-06-27 00:22:15,097 - INFO - Top 5 Results (ID, Score): [('CASE_5', np.float64(0.6076643290171767)), ('CASE_1', np.float64(0.5945989349663527)), ('CASE_2', np.float64(0.5945989349663527)), ('CASE_3', np.float64(0.5945989349663527)), ('CASE_4', np.float64(0.5945989349663527))]
+2025-06-27 00:22:15,098 - INFO - ✅ FOUND in Top-5: CASE_5
+2025-06-27 00:22:15,098 - INFO - LogReg Pairwise Accuracy@5: 5/5 = 1.00
+2025-06-27 00:22:15,100 - INFO - LogReg Pairwise Recall@10: 5/5 = 1.00

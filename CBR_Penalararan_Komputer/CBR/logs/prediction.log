@@ -1,0 +1,56 @@
+2025-06-27 01:28:47,213 - INFO - Starting prediction process at 2025-06-27 01:28:47
+2025-06-27 01:28:47,413 - INFO - Loaded 67 cases from D:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\data\processed\cases.csv and 43 queries from D:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\data\eval\queries.json
+2025-06-27 01:28:47,442 - INFO - TF-IDF matrix shape: (67, 2000)
+2025-06-27 01:28:47,770 - INFO - Training data shape: (430, 4003)
+2025-06-27 01:28:47,771 - INFO - Class distribution: [215 215]
+2025-06-27 01:28:52,836 - INFO - Best Logistic Regression Parameters: {'C': 0.1}
+2025-06-27 01:28:52,837 - INFO - Best CV F1 Score (LogReg): 1.00
+2025-06-27 01:28:53,203 - INFO - Best SVM Parameters: {'C': 0.1}
+2025-06-27 01:28:53,205 - INFO - Best CV F1 Score (SVM): 1.00
+2025-06-27 01:28:53,207 - INFO - Loading IndoBERT model on cpu
+2025-06-27 01:28:53,212 - INFO - Load pretrained SentenceTransformer: indobenchmark/indobert-base-p1
+2025-06-27 01:28:53,703 - WARNING - No sentence-transformers model found with name indobenchmark/indobert-base-p1. Creating a new one with mean pooling.
+2025-06-27 01:29:06,298 - INFO - Document embeddings shape: (67, 768)
+2025-06-27 01:30:15,508 - INFO - Saved results to D:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\data\results/logreg_predictions.csv
+2025-06-27 01:30:15,510 - INFO - Saved results to D:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\data\results/svm_predictions.csv
+2025-06-27 01:30:15,512 - INFO - Saved results to D:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\data\results/indobert_predictions.csv
+2025-06-27 01:32:21,408 - INFO - Directory ensured: d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\logs
+2025-06-27 01:32:21,410 - INFO - Directory ensured: d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\data\processed
+2025-06-27 01:32:21,413 - INFO - Directory ensured: d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\data\eval
+2025-06-27 01:32:21,413 - INFO - Directory ensured: d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\data\results
+2025-06-27 01:38:59,016 - INFO - Starting prediction process at 2025-06-27 01:38:59
+2025-06-27 01:38:59,220 - INFO - Loaded 67 cases from D:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\data\processed\cases.csv and 43 queries from D:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\data\eval\queries.json
+2025-06-27 01:38:59,240 - INFO - TF-IDF matrix shape: (67, 2000)
+2025-06-27 01:38:59,602 - INFO - Training data shape: (430, 4003)
+2025-06-27 01:38:59,605 - INFO - Class distribution: [215 215]
+2025-06-27 01:39:04,990 - INFO - Best Logistic Regression Parameters: {'C': 0.1}
+2025-06-27 01:39:04,993 - INFO - Best CV F1 Score (LogReg): 1.00
+2025-06-27 01:39:05,317 - INFO - Best SVM Parameters: {'C': 0.1}
+2025-06-27 01:39:05,318 - INFO - Best CV F1 Score (SVM): 1.00
+2025-06-27 01:39:05,319 - INFO - Loading IndoBERT model on cpu
+2025-06-27 01:39:05,324 - INFO - Load pretrained SentenceTransformer: indobenchmark/indobert-base-p1
+2025-06-27 01:39:06,438 - WARNING - No sentence-transformers model found with name indobenchmark/indobert-base-p1. Creating a new one with mean pooling.
+2025-06-27 01:39:19,087 - INFO - Document embeddings shape: (67, 768)
+2025-06-27 01:40:25,922 - INFO - Saved results to D:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\data\results/logreg_predictions.csv
+2025-06-27 01:40:25,924 - INFO - Saved results to D:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\data\results/svm_predictions.csv
+2025-06-27 01:40:25,925 - INFO - Saved results to D:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\data\results/indobert_predictions.csv
+2025-06-27 01:42:45,749 - INFO - Directory ensured: d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\logs
+2025-06-27 01:42:45,751 - INFO - Directory ensured: d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\data\processed
+2025-06-27 01:42:45,752 - INFO - Directory ensured: d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\data\eval
+2025-06-27 01:42:45,753 - INFO - Directory ensured: d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\data\results
+2025-06-27 01:42:45,755 - INFO - Starting prediction process at 2025-06-27 01:42:45
+2025-06-27 01:42:45,955 - INFO - Loaded 67 cases from d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\data\processed\cases.csv and 43 queries from d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\data\eval\queries.json
+2025-06-27 01:42:45,972 - INFO - TF-IDF matrix shape: (67, 2000)
+2025-06-27 01:42:46,316 - INFO - Training data shape: (430, 4003)
+2025-06-27 01:42:46,317 - INFO - Class distribution: [215 215]
+2025-06-27 01:42:46,642 - INFO - Best Logistic Regression Parameters: {'C': 0.1}
+2025-06-27 01:42:46,645 - INFO - Best CV F1 Score (LogReg): 1.00
+2025-06-27 01:42:46,940 - INFO - Best SVM Parameters: {'C': 1}
+2025-06-27 01:42:46,942 - INFO - Best CV F1 Score (SVM): 1.00
+2025-06-27 01:42:46,943 - INFO - Loading IndoBERT model on cpu
+2025-06-27 01:42:46,948 - INFO - Load pretrained SentenceTransformer: indobenchmark/indobert-base-p1
+2025-06-27 01:42:47,262 - WARNING - No sentence-transformers model found with name indobenchmark/indobert-base-p1. Creating a new one with mean pooling.
+2025-06-27 01:43:00,179 - INFO - Document embeddings shape: (67, 768)
+2025-06-27 01:44:06,400 - INFO - Saved results to d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\data\results/logreg_predictions.csv
+2025-06-27 01:44:06,401 - INFO - Saved results to d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\data\results/svm_predictions.csv
+2025-06-27 01:44:06,403 - INFO - Saved results to d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\CBR\data\results/indobert_predictions.csv

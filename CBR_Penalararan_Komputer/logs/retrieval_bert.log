@@ -1,0 +1,47 @@
+2025-06-27 00:21:57,009 - INFO - Starting retrieval process at 2025-06-27 00:21:57
+2025-06-27 00:21:57,014 - INFO - Loading SentenceTransformer model: indobenchmark/indobert-base-p1 on cpu
+2025-06-27 00:21:57,019 - INFO - Load pretrained SentenceTransformer: indobenchmark/indobert-base-p1
+2025-06-27 00:21:57,530 - WARNING - No sentence-transformers model found with name indobenchmark/indobert-base-p1. Creating a new one with mean pooling.
+2025-06-27 00:21:59,877 - INFO - Loading CrossEncoder model: cross-encoder/mmarco-mMiniLMv2-L12-H384-v1
+2025-06-27 00:22:03,093 - INFO - Loading dataset from d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\data\processed\cases.csv
+2025-06-27 00:22:03,098 - INFO - Loaded 50 cases from d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\data\processed\cases.csv
+2025-06-27 00:22:03,099 - INFO - Preprocessing texts
+2025-06-27 00:22:03,108 - INFO - Initializing BM25Okapi with k1=1.5, b=0.75
+2025-06-27 00:22:03,109 - INFO - Encoding documents
+2025-06-27 00:22:04,017 - INFO - Document embeddings shape: (50, 768)
+2025-06-27 00:22:04,020 - INFO - Loading evaluation queries from d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\data\eval\queries.json
+2025-06-27 00:22:04,022 - INFO - Loaded 5 evaluation queries
+2025-06-27 00:22:04,024 - INFO - Evaluating with alpha=0.4
+2025-06-27 00:22:04,958 - INFO - Alpha=0.4: Accuracy@5=1.00, Recall@10=1.00, MRR=1.00
+2025-06-27 00:22:04,958 - INFO - Evaluating with alpha=0.5
+2025-06-27 00:22:05,662 - INFO - Alpha=0.5: Accuracy@5=1.00, Recall@10=1.00, MRR=1.00
+2025-06-27 00:22:05,663 - INFO - Evaluating with alpha=0.6
+2025-06-27 00:22:06,383 - INFO - Alpha=0.6: Accuracy@5=1.00, Recall@10=1.00, MRR=1.00
+2025-06-27 00:22:06,384 - INFO - Evaluating with alpha=0.7
+2025-06-27 00:22:07,103 - INFO - Alpha=0.7: Accuracy@5=1.00, Recall@10=1.00, MRR=1.00
+2025-06-27 00:22:07,104 - INFO - Evaluating with alpha=0.8
+2025-06-27 00:22:07,833 - INFO - Alpha=0.8: Accuracy@5=1.00, Recall@10=1.00, MRR=1.00
+2025-06-27 00:22:07,835 - INFO - Evaluating with alpha=0.9
+2025-06-27 00:22:08,650 - INFO - Alpha=0.9: Accuracy@5=1.00, Recall@10=1.00, MRR=1.00
+2025-06-27 00:22:08,651 - INFO - Best alpha: 0.4 with Accuracy@5: 1.00
+2025-06-27 00:22:08,815 - INFO - Query: Legal dispute case 1...
+2025-06-27 00:22:08,816 - INFO - Top 5 Results (ID, Score): [('CASE_1', 2.608067512512207), ('CASE_36', -0.20904992520809174), ('CASE_18', -0.29714056849479675), ('CASE_33', -0.406864732503891), ('CASE_14', -0.4097851812839508)]
+2025-06-27 00:22:08,819 - INFO - ✅ FOUND in Top-5: CASE_1
+2025-06-27 00:22:08,977 - INFO - Query: Legal dispute case 2...
+2025-06-27 00:22:08,978 - INFO - Top 5 Results (ID, Score): [('CASE_2', 3.8508942127227783), ('CASE_22', -0.8423956036567688), ('CASE_36', -0.8646412491798401), ('CASE_14', -0.9724110960960388), ('CASE_33', -1.0700106620788574)]
+2025-06-27 00:22:08,979 - INFO - ✅ FOUND in Top-5: CASE_2
+2025-06-27 00:22:09,276 - INFO - Query: Legal dispute case 3...
+2025-06-27 00:22:09,277 - INFO - Top 5 Results (ID, Score): [('CASE_3', 4.667585372924805), ('CASE_36', -1.0952690839767456), ('CASE_34', -1.1280572414398193), ('CASE_33', -1.183658480644226), ('CASE_35', -1.4974206686019897)]
+2025-06-27 00:22:09,278 - INFO - ✅ FOUND in Top-5: CASE_3
+2025-06-27 00:22:09,429 - INFO - Query: Legal dispute case 4...
+2025-06-27 00:22:09,430 - INFO - Top 5 Results (ID, Score): [('CASE_4', 5.204360008239746), ('CASE_17', -1.2443318367004395), ('CASE_6', -1.426748275756836), ('CASE_5', -1.6177444458007812), ('CASE_3', -1.6930291652679443)]
+2025-06-27 00:22:09,432 - INFO - ✅ FOUND in Top-5: CASE_4
+2025-06-27 00:22:09,592 - INFO - Query: Legal dispute case 5...
+2025-06-27 00:22:09,593 - INFO - Top 5 Results (ID, Score): [('CASE_5', 5.066492080688477), ('CASE_17', -1.1091742515563965), ('CASE_15', -1.138985514640808), ('CASE_6', -1.1803070306777954), ('CASE_18', -1.1884934902191162)]
+2025-06-27 00:22:09,595 - INFO - ✅ FOUND in Top-5: CASE_5
+2025-06-27 00:22:09,600 - INFO - IndoBERT-Base-P1 Accuracy@5: 5/5 = 1.00
+2025-06-27 00:22:09,601 - INFO - IndoBERT-Base-P1 Recall@10: 5/5 = 1.00
+2025-06-27 00:22:09,604 - INFO - IndoBERT-Base-P1 MRR: 1.00
+2025-06-27 00:22:14,516 - INFO - Directory ensured: d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\logs
+2025-06-27 00:22:14,518 - INFO - Directory ensured: d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\data\processed
+2025-06-27 00:22:14,520 - INFO - Directory ensured: d:\TUGAS SMT 6\PENALARAN KOMPUTER\TUGAS AKHIR UAS\CODE\Penalaran_Komputer\CBR_Penalararan_Komputer(8)\data\eval
